@@ -1,0 +1,20 @@
+{
+  "name": "github-enterprise-automation",
+  "version": "3.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "better-sqlite3": "^11.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^4.71.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.16"
+  }
+}
